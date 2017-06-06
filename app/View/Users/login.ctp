@@ -9,13 +9,14 @@ echo $this->Form->create('User', array('url' => array('controller' => 'users', '
     border="0" cellpadding="2" cellspacing="2">
     <tbody>
         <tr>
-            <td><h2>Entrada</h2></td>
+            <h3 class="form-signin-heading">Ingresar</h3>
         </tr>
         <tr>
-            <td><?php echo $this->Form->input('User.username', array('label' => 'Usuario', 'title' => 'Nombre de usuario')); ?></td>
+            <td><?php echo $this->Form->input('User.username', array('label' => '', 'type' => "text", 'class' => "form-control", 'placeholder' => "Usuario", 'required' => "", 'autofocus' => "")); ?>
+</td>
         </tr>
         <tr>
-            <td><?php echo $this->Form->input('User.password', array('label' => 'Contraseña', 'title' => 'Contraseña')); ?></td>
+            <td><?php echo $this->Form->input('User.password', array('label' => '', 'type' => "password", 'class' => "form-control", 'placeholder' => "Contraseña", 'required' => "")); ?></td>
         </tr>
         
         <tr>
