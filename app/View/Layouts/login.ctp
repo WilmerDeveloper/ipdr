@@ -39,7 +39,7 @@
     </head>
     <body>
         <div id="container">
-            <div id="banner" align="center"><?php echo $this->Html->image('logo.jpg', array('width' => '90%', 'heigth' => '300', 'border' => "0")) ?> </div>
+            <div id="banner" align="center" style="padding: 20px"><?php echo $this->Html->image('bandera.png', array('width' => '90%', 'heigth' => '300', 'border' => "0")) ?> </div>
 
 
 
@@ -49,12 +49,7 @@
                 <?php echo $this->element('sql_dump'); ?>  
             </div>
 
-            <div id="footer"> <p align="center">Políticas de Privacidad y Condiciones de Uso          Direcciones Territoriales
-                Instituto Colombiano de Desarrollo Rural - INCODER, Nit: 830.122.390-0, Avenida el Dorado C.A.N
-                Calle 43 No. 57 - 41 (Bogotá - Colombia) Conmutador (571) 3830444 Ext 1124, Fax: (571) 3830444 Ext 1200
-                Línea de Atención al Ciudadano 018000110132  Horario de Atención: Lunes a Viernes 8.00 a.m. a 5:00 p.m. 
-                E-Mail: incoder@incoder.gov.co
-                www.incoder.gov.co</p></div>
+            <div id="footer"> <p align="center">Políticas de Privacidad y Condiciones de Uso Agencia de Desarrollo Rural, Nit: 900.948.958-4, Avenida el Dorado C.A.N Calle 43 No. 57 - 41 (Bogotá - Colombia) Conmutador: (571) 3830444 Ext 1112 - 1114 Línea de Atención al Ciudadano 018000115121 Horario de Atención: Lunes a Viernes 8.00 a.m. a 5:00 p.m. E-Mail: atencionalciudadano@adr.gov.co www.adr.gov.co</p></div>
         </div>
     </body>
 </html>
