@@ -2,12 +2,12 @@
 
 class DATABASE_CONFIG {
 
-  public $default = array(
+    public $default = array(
 		'datasource' => 'Database/Sqlserver',
 		'persistent' => false,
-		'host' => '192.168.1.80',
-		'login' => 'user_ipdr',
-		'password' => 'Hincoder$%',
+		'host' => 'SRVDBADR01\PORTALESTADISTIC',
+		'login' => 'usr_usaid',
+		'password' => 'Usaid2017*',
 		'database' => 'ipdr',
                 'port'=>'1433'
 		//'prefix' => '',
